@@ -1,0 +1,27 @@
+{
+  "name": "node-binance-api-wss",
+  "version": "0.0.1",
+  "description": "node binance api with wss",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "format": "npx prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tradeforfood/node-binance-api-wss.git"
+  },
+  "keywords": [
+    "node binance api"
+  ],
+  "author": "Chau Giang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tradeforfood/node-binance-api-wss/issues"
+  },
+  "homepage": "https://github.com/tradeforfood/node-binance-api-wss#readme",
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "prettier": "2.2.1"
+  }
+}
