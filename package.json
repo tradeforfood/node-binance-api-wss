@@ -4,7 +4,7 @@
   "description": "node binance api with wss",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --collect-coverage",
     "format": "npx prettier --write ."
   },
   "repository": {
@@ -21,7 +21,11 @@
   },
   "homepage": "https://github.com/tradeforfood/node-binance-api-wss#readme",
   "devDependencies": {
+    "husky": "^6.0.0",
     "jest": "^26.6.3",
     "prettier": "2.2.1"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
   }
 }
