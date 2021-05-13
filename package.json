@@ -1,6 +1,6 @@
 {
   "name": "node-binance-api-wss",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "node binance api with wss",
   "main": "index.js",
   "scripts": {
