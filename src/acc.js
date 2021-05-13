@@ -27,3 +27,4 @@ const getAccInfo = async (recv = 50_000) => {
 module.export = {
   getAccInfo,
 };
+
