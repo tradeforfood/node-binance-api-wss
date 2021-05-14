@@ -1,7 +1,13 @@
+const { getAccInfo } = require("./src/acc.js");
 const {
-  getAccInfo,
-} = require('./src/acc.js');
+  candlestickData,
+  miniTicker,
+  allMiniTicker,
+} = require("./src/market.js");
 
 module.exports = {
   getAccInfo,
-}
+  candlestickData,
+  miniTicker,
+  allMiniTicker,
+};
